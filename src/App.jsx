@@ -1,8 +1,16 @@
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
+import TrustBar from './components/TrustBar'
 import SearchSection from './components/SearchSection'
-import FeatureGrids from './components/FeatureGrids'
+import ValueProps from './components/ValueProps'
+import Categories from './components/Categories'
+import HowItWorks from './components/HowItWorks'
 import Showcase from './components/Showcase'
+import Testimonials from './components/Testimonials'
+import Pricing from './components/Pricing'
+import AppBanner from './components/AppBanner'
+import Newsletter from './components/Newsletter'
+import FAQ from './components/FAQ'
 import CTA from './components/CTA'
 
 function App() {
@@ -10,9 +18,17 @@ function App() {
     <div className="min-h-screen bg-white text-slate-900">
       <Navbar />
       <Hero />
+      <TrustBar />
       <SearchSection />
-      <FeatureGrids />
+      <ValueProps />
+      <Categories />
+      <HowItWorks />
       <Showcase />
+      <Testimonials />
+      <Pricing />
+      <AppBanner />
+      <Newsletter />
+      <FAQ />
       <CTA />
 
       <footer className="py-12 border-t border-slate-200">
